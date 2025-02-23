@@ -4,12 +4,14 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				inter: ["Inter", "sans-serif"],
+				inter: ["futura", "sans-serif"],
 			},
 			colors: {
 				brand: {
 					green: "#157F71",
 					red: "#DB1D00",
+					beige: "#D8C99B",
+					brown: "#555"
 				},
 			},
 			container: {

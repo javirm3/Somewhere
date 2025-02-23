@@ -62,12 +62,21 @@ p {
 	@apply bg-brand-green hover:bg-brand-green/80 text-white focus-visible:outline-brand-green;
 }
 
+.button-brown {
+	@apply bg-brand-brown hover:bg-brand-brown/80 text-white focus-visible:outline-brand-brown;
+}
+
+.button-beige {
+	@apply bg-brand-beige hover:bg-brand-beige/80 text-white focus-visible:outline-brand-beige;
+}
+
+
 .button-red {
 	@apply bg-brand-red hover:bg-brand-red/80 text-white focus-visible:outline-brand-red;
 }
 
 .menu-item-highlighted.menu-item-highlighted {
-	@apply text-white bg-brand-green px-4 rounded-full py-1.5 hover:bg-opacity-80 hover:text-white;
+	@apply text-white bg-brand-brown px-4 rounded-full py-1.5 hover:bg-opacity-80 hover:text-white;
 }
 
 .menu-item-active.menu-item-highlighted {
@@ -75,7 +84,7 @@ p {
 }
 
 .menu-item-active:not(.menu-item-highlighted) {
-	@apply text-brand-green font-bold;
+	@apply text-brand-beige font-bold;
 }
 
 [x-cloak] {

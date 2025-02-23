@@ -14,7 +14,7 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 	<div class="container py-6">
 		<nav class="flex items-center justify-between" aria-label="Global">
 			<a href="/" class="-m-1.5 p-1.5">
-				<p class="font-bold text-4xl text-brand-green">Astro<span class="text-brand-red bg-brand-red/5 px-3 ml-1 rounded-lg">Pie</span></p>
+				<p class="font-bold lg:text-4xl text-2xl text-brand-brown">SOMEWHERE<span class="text-white bg-brand-brown px-3 ml-1 rounded-lg">CAFE</span></p>
 			</a>
 			<div class="flex lg:hidden">
 				<button
@@ -24,7 +24,7 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 				>
 					<span class="sr-only">Open main menu</span>
 					<svg
-						class="size-8 text-brand-green"
+						class="size-8 text-brand-brown"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke-width="1.5"
@@ -39,12 +39,12 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 					</svg>
 				</button>
 			</div>
-			<div class="hidden lg:flex lg:gap-x-12 lg:items-center">
+			<div class="hidden lg:flex lg:gap-x-12 lg:items-center lg:px-5">
 				{
 					menuMain.map((item) => (
 						<a
 							href={item.url}
-							class={`transition text-base/6 font-semibold hover:text-brand-green ${item.highlighted ? "menu-item-highlighted" : ""} ${pathname === item.url ? "menu-item-active" : ""}`}
+							class={`transition text-base/6 font-semibold hover:text-brand-beige ${item.highlighted ? "menu-item-highlighted" : ""} ${pathname === item.url ? "menu-item-active" : ""}`}
 						>
 							{item.name}
 						</a>
@@ -65,10 +65,10 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 				x-cloak
 			>
 				<div class="flex items-center justify-between">
-					<a href="/" class="-m-1.5 p-1.5">
-						<p class="font-bold text-4xl text-brand-green">Astro<span class="text-brand-red">Pie</span></p>
+					<a href="/" class="">
+						<p class="font-bold lg:text-4xl text-2xl text-brand-brown">SOMEWHERE<span class="text-white bg-brand-brown px-3 ml-1 rounded-lg">CAFE</span></p>
 					</a>
-					<button type="button" class="-m-2.5 p-2.5 text-brand-red" @click="open = false">
+					<button type="button" class="-m-2.5 p-2.5 text-brand-brown" @click="open = false">
 						<span class="sr-only">Close menu</span>
 						<svg
 							class="size-8"
@@ -85,7 +85,7 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 				</div>
 				<div class="mt-6 flow-root">
 					<div class="-my-6 divide-y divide-gray-500/10">
-						<div class="space-y-2 py-6 mt-16">
+						<div class="space-y-2 py-6 mt-8">
 							{
 								menuMain.map((item) => (
 									<a

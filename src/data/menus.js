@@ -1,12 +1,12 @@
 export const menuMain = [
     {
-        name: "Home",
+        name: "Inicio",
         url: "/",
         highlighted: false,
     },
     {
-        name: "Menu",
-        url: "/menu",
+        name: "Carta",
+        url: "/carta",
         highlighted: false,
     },
     {
