@@ -1,4 +1,5 @@
 ---
+import { Icon } from "astro-icon/components";
 import Layout from "~/layouts/Layout.astro";
 import Section from "~/components/Section.astro";
 import Heading from "~/components/Heading.astro";
@@ -10,9 +11,30 @@ import MenuList from "~/components/Menu.astro";
 		<Heading>
 			<h1 slot="heading-title" class="font-black text-brand-beige h2">Nuestra carta</h1>
 			<p slot="heading-content">
-				We offer a variety of dishes, from traditional to modern, that are sure to satisfy your cravings.
+				Disfruta de nuestra selección de platos y bebidas, elaborados con ingredientes frescos y de calidad.
+				<br />
+				Nuestra cocina está abierta <block class="font-semibold text-brand-brown inline">todo el día</p>.
 			</p>
 		</Heading>
+		<div class="flex space-x-5 mb-10 justify-center">
+			<span class="flex flex-col items-center text-[12px]">
+				<Icon name="mdi:leaf" width={24} height={24} color={"#00832c"}/>
+				<p>Vegano</p>
+				<p class=" text-[10px]">(Opción vegana)</p>
+			</span>
+			<span class="flex flex-col items-center text-[12px]">
+				<Icon name="mdi:star" width={24} height={24} color={"#fac41d"}/>
+				<p> Best Seller </p>
+			</span>
+			<span class="flex flex-col items-center text-[12px] px-[0.8]">
+				<Icon name="mdi:heart" width={24} height={24} color={"#eb3131"}/>
+				<p>Saludable</p>
+			</span>
+			<span class="flex flex-col items-center text-[12px] px-[0.8]">
+				<Icon name="mdi:gluten-free" width={24} height={24} color={"#fac41d"}/>
+				<p>Sin Gluten</p>
+			</span>
+		</div>
 
 		<MenuList />
 	</Section>

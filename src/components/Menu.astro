@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { Icon } from "astro-icon/components";
 import { siteLang, siteCurrency } from "~/data/config";
 const plates = await getCollection("plates");
 const siteLangFormat = siteLang.replace("_", "-");
@@ -8,7 +9,7 @@ const siteLangFormat = siteLang.replace("_", "-");
 <!-- Quick Nav -->
 <div class="mb-20 sticky top-8 z-10">
 	<nav class="bg-brand-brown text-white rounded-full max-w-5xl mx-auto swiper-plates w-full">
-		<ul id="plate-nav" class="px-6 py-3 swiper-wrapper h-auto w-auto">
+		<ul id="plate-nav" class="px-6 py-3 swiper-wrapper h-auto w-auto overflow-hidden">
 			{
 				plates.map((plate) => (
 					<li class="swiper-slide !w-max">
@@ -27,7 +28,7 @@ const siteLangFormat = siteLang.replace("_", "-");
 		plates.map((plate) => (
 			<div id={plate.data.slug} class="space-y-16 scroll-mt-20">
 				<div class="flex flex-col items-center gap-2 max-w-lg mx-auto text-balance text-center">
-					<h3 class="h4 text-brand-beige/70">{plate.data.prettyName}</h3>
+					<h3 class="h4 text-brand-beige">{plate.data.prettyName}</h3>
 					<p>{plate.data.description}</p>
 				</div>
 
@@ -37,7 +38,12 @@ const siteLangFormat = siteLang.replace("_", "-");
 							<div>
 								<dt>
 									<div class="flex justify-between items-center">
-										<span class="font-bold text-2xl tracking-wide">{item.name}</span>
+										<span class="font-bold text-2xl tracking-wide">{item.name} 
+											{item.icons.includes("vegan") && (<Icon name="mdi:leaf" width={18} height={18} color="#00832c" />)}
+											{item.icons.includes("saludable") && (<Icon name="mdi:heart" width={18} height={18} color={"#eb3131"}/>)}
+											{item.icons.includes("best") && (<Icon name="mdi:star" width={18} height={18} color={"#fac41d"}/>)}
+											{item.icons.includes("gluten-free") && <Icon name="mdi:gluten-free" width={18} height={18} color={"#fac41d"}/>}
+											</span>
 										<span class="font-medium text-lg">
 											{new Intl.NumberFormat(siteLangFormat, {
 												style: "currency",

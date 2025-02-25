@@ -11,6 +11,7 @@ const plates = defineCollection({
 			z.object({
 				name: z.string(),
 				description: z.string(),
+				icons: z.array(z.string()),
 				price: z.number(),
 			})
 		),

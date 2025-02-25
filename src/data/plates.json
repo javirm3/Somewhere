@@ -5,137 +5,168 @@
 	  "prettyName": "Para Compartir",
 	  "description": "Opciones para compartir con la mesa.",
 	  "plates": [
-		{
-		  "name": "Nachos XL con pulled pork",
-		  "description": "",
-		  "price": 9.6
-		},
-		{
-		  "name": "Sweet Potatoes Fries",
-		  "description": "",
-		  "price": 5.9
-		},
-		{
-		  "name": "Flores de alcachofas fritas",
-		  "description": "",
-		  "price": 6.9
-		},
-		{
-		  "name": "Pan de ajo con queso",
-		  "description": "",
-		  "price": 3.9
-		},
-		{
-		  "name": "Guacamole casero",
-		  "description": "",
-		  "price": 5.9
-		},
-		{
-		  "name": "Patatas bravas",
-		  "description": "",
-		  "price": 5.5
-		},
-		{
-		  "name": "Verduras en tempura",
-		  "description": "",
-		  "price": 6.5
-		},
-		{
-		  "name": "Palitos de mozzarella",
-		  "description": "",
-		  "price": 6.5
-		}
-	  ]
+			{
+			"name": "Nachos XL con pulled pork",
+			"icons": ["vegan"],
+			"description": "Nachos con guacamole, queso cheddar, pico de gallo, jalapeños, crema agria, frijoles y pulled pork casero",
+			"price": 10.9
+			},
+			{
+			"name": "Sweet Potatoes Fries",
+			"icons": ["vegan"],
+			"description": "Patatas de boniato crujientes con pico de gallo fresco, crema agria y ketchup de remolacha casero",
+			"price": 6.5
+			},
+			{
+			"name": "Patatas Bravas",
+			"icons": ["vegan"],
+			"description": "Patatas con pimentón de la Vera, salsa brava y mayonesa cremosa",
+			"price": 6.5
+			},
+			{
+			"name": "Hummus",
+			"icons": ["vegan"],
+			"description": "Suave hummus  con tahin, acompañado de pico de gallo, aceitunas Kalamata y crudités crujientes.",
+			"price": 5.9
+			},
+			{
+			"name": "Guacamole casero",
+			"icons": ["vegan"],
+			"description": "Cremoso guacamole casero, acompañado de pico de gallo, jalapeños y nachos de maíz crujientes",
+			"price": 6.9
+			},
+			{
+			"name": "Chips de alcachofa fritas",
+			"icons": ["vegan"],
+			"description": "Chips de alcachofa ligeras y crujientes, acompañadas de mayonesa cítrica.",
+			"price": 7.5
+			},
+			{
+			"name": "Verduras en tempura",
+			"icons": ["vegan"],
+			"description": "Deliciosas verduras frescas, rebozadas en tempura y servidas con salsa de soja.",
+			"price": 6.5
+			},
+			{
+			"name": "Baba Ganoush",
+			"icons": ["vegan"],
+			"description": "Paté de berenjenas ahumadas, servido con un mix de crudités crujientes.",
+			"price": 6.5
+			},
+			{
+			"name": "Pan tostado",
+			"icons": ["vegan"],
+			"description": "Pan Naan, tierno y suave.",
+			"price": 12.5
+			}
+		]
 	},
 	{
 	  "id": 2,
 	  "slug": "crea-tu-plato",
 	  "prettyName": "Crea tu plato",
-	  "description": "Elige una base y 1 guarnición para armar tu plato perfecto.",
+	  "description": "Elige una base y una guarnición para montar tu plato perfecto.",
 	  "plates": [
 		{
 		  "name": "Curry de vegetales (Base)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 8.9
 		},
 		{
 		  "name": "Mediterranean Bowl (Base)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 9.9
 		},
 		{
 		  "name": "Ensalada de pasta (Base)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 7.9
 		},
 		{
 		  "name": "Healthy buddha bowl (Base)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 8.9
 		},
 		{
 		  "name": "Ensalada de quinoa (Base)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 9.5
 		},
 		{
 		  "name": "Poke Bowl (Base)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 10.9
 		},
   
 		{
 		  "name": "Pollo en dados (Proteína)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 2.9
 		},
 		{
 		  "name": "Tiras de pollo (Proteína)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 3.5
 		},
 		{
 		  "name": "Tiras de ternera (Proteína)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 3.9
 		},
 		{
 		  "name": "Falafel (Proteína)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 2.9
 		},
 		{
 		  "name": "Atún (Proteína)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 4.5
 		},
 		{
 		  "name": "Tofu (Proteína)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 2.5
 		},
 		{
 		  "name": "Hummus (Guarnición)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 2.5
 		},
 		{
 		  "name": "Patatas bravas (Guarnición)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 3.5
 		},
 		{
 		  "name": "Sweet potatoes fries (Guarnición)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 3.9
 		},
 		{
 		  "name": "Verduras en tempura (Guarnición)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 3.9
 		},
 		{
 		  "name": "Mix de verdes (Guarnición)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 2.5
 		}
@@ -149,31 +180,37 @@
 	  "plates": [
 		{
 		  "name": "Tostada XL con guacamole y poached egg",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 10.5
 		},
 		{
 		  "name": "Tostada con jamón ibérico y huevos revueltos",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 10.9
 		},
 		{
 		  "name": "Shakshuka con pan Naan",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 10.9
 		},
 		{
 		  "name": "Huevos Rancheros",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 10.9
 		},
 		{
 		  "name": "Huevos Benedict",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 10.9
 		},
 		{
 		  "name": "Huevos al gusto (revueltos, fritos o en tortilla con jamón, bacon o queso)",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 7.9
 		}
@@ -187,31 +224,37 @@
 	  "plates": [
 		{
 		  "name": "Meat Burger + patatas",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 10.9
 		},
 		{
 		  "name": "Meat Burger + patatas sweet pot",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 12.0
 		},
 		{
 		  "name": "Burger trufada",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 12.9
 		},
 		{
 		  "name": "Veggie Burger + patatas",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 9.9
 		},
 		{
 		  "name": "Veggie Burger + patatas sweet pot",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 11.0
 		},
 		{
 		  "name": "Philly Cheese Steak",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 10.9
 		}
@@ -225,21 +268,25 @@
 	  "plates": [
 		{
 		  "name": "Bikini jamón y queso",
+		  "icons": ["best"],
 		  "description": "",
 		  "price": 4.9
 		},
 		{
 		  "name": "BLT",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 5.9
 		},
 		{
 		  "name": "Bagel proteico",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 7.5
 		},
 		{
 		  "name": "Bagel de salmón",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 6.9
 		}
@@ -253,16 +300,19 @@
 	  "plates": [
 		{
 		  "name": "Pancakes de nutella fresa y plátano",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 8.9
 		},
 		{
 		  "name": "Pancakes de fruta de temporada",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 8.9
 		},
 		{
 		  "name": "Pancakes proteicos",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 9.9
 		}
@@ -276,6 +326,7 @@
 	  "plates": [
 		{
 		  "name": "Açaí Bowl",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 8.9
 		}
@@ -289,16 +340,19 @@
 	  "plates": [
 		{
 		  "name": "Bacon",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 2.0
 		},
 		{
 		  "name": "Huevos extra",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 2.0
 		},
 		{
 		  "name": "Sweet potatoes fries",
+		  "icons": ["vegan"],
 		  "description": "",
 		  "price": 3.9
 		}

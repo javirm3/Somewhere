@@ -9,6 +9,8 @@ import mdx from "@astrojs/mdx";
 
 import playformInline from "@playform/inline";
 
+import icon from "astro-icon";
+
 // https://astro.build/config
 export default defineConfig({
 	site: "https://astropie.netlify.app",
@@ -21,6 +23,7 @@ export default defineConfig({
 		(await import("@playform/inline")).default({
 			Critters: true,
 		}),
+		icon(),
 	],
 	output: "static",
 	devToolbar: {
